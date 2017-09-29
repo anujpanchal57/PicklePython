@@ -89,6 +89,6 @@ print(x)
 
 print("= " * 40)
 
-# # This piece of code is to remove the file IMELDA.PICKLE you can observe the DEL in the command
-# pickle.loads(b"cos\nsystem\n(S'del imelda.pickle'\ntR.")
+# This piece of code is to remove the file IMELDA.PICKLE you can observe the DEL in the command
+pickle.loads(b"cos\nsystem\n(S'del imelda.pickle'\ntR.")
 

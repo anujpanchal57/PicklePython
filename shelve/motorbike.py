@@ -5,14 +5,14 @@ import shelve
 # I've renamed this as BIKE2 to see that if it shows an error
 # But now if we see our project files, then code has created database files
 with shelve.open("bike2") as bike:
-    # bike["make"] = "Honda"
-    # bike["model"] = "250 dream"
-    # bike["colour"] = "black"
-    # bike["engine_size"] = 250
+    bike["make"] = "Honda"
+    bike["model"] = "250 dream"
+    bike["colour"] = "black"
+    bike["engine_size"] = 250
 
     # If I print this line, it will still give us the result as 250 as it has created database
     # of its own after executing the code
-    # print(bike["engin_size"])
+    print(bike["engin_size"])
 
     # del bike["engin_size"]
 
